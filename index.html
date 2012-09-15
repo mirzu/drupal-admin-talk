@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Make publishing rock!</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -41,255 +41,326 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
+					<h1>Make publishing rock!</h1>
+					<h3>A few ways to make the lives of content creators better.</h3>
 				</section>
 				
 				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with 
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
-					<p>
-						<i><small>- <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small></i>
-					</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you run the speaker notes server.
-					</aside>
+					<section>
+						<h2>Who Am I?</h2>
+						<h3>Michal Minecki</h3>
+				        <ul class="networks">
+			            	<li class="twitter"><a href="https://twitter.com/mirzu">@mirzu</a></li>
+			            	<li class="drupal"><a href="http://drupal.org/user/7710">drupal.org/user/7710</a></li>
+			            	<li class="github"><a href="https://github.com/mirzu">github.com/mirzu</a></li>
+			            </ul>
+              		</section>
+              		<section>
+              			<h2>Why I'm giving this talk.</h2>
+              			<ul>
+              				<li>Not a usability expert, and I never will be.</li>
+              				<li>I'm a developer.</li>
+              				<li>I like happy clients.</li>
+              				<li>I see clients that are frustrated by Drupal.</li>
+              				<li>I see some quick wins.</li>
+              			</ul>
+              		</section>
+				    <section>
+              			<h2>What We'll go over.</h2>
+              			<ul>
+              				<li>What makes a good admin.</li>
+              				<li>Why making drupal's work can be hard.</li>
+              				<li>Quick things to look for.</li>
+              				<li>Modules that help.</li>
+              				<li>What the future holds.</li>
+              			</ul>
+              		</section>
 				</section>
-				
-				<!-- Example of nested vertical slides -->
+				<section >
+					<section>
+						<h2>Why Drupal *can* be frustrating.</h2>
+					</section>	
+					<section>
+  						
+						<h2>Wordpress admin</h2>
+
+  						<img src="/img/wordpress-admin.png">
+					</section>	
+					<section>
+
+						<h2>Drupal Admin</h2>
+
+						<img src="/img/drupal-admin.png">
+
+					</section>	
+					<section>
+						<h2>Usually goes downhill from there.</h2>
+					</section>
+					<section>
+						<h2>Users don't care. . . </h2>
+						<h3 class="fragment">. . . and the shouldn't.</h3>
+					    <h3 class="fragment">They have their own job.</h3>
+					    <h3 class="fragment">Our job is to get out of their way.</h3>
+					</section>
+					<section>
+ 						<h2>What's in their way?</h2>
+ 						<ul>
+ 							<li class="fragment">Don't know whats going on.</li>
+ 							<li class="fragment">Lots of clicks for common tasks</li>
+ 							<li class="fragment">Can't figure out uncommon tasks</li>
+ 							<li class="fragment">Your <strong>clever</strong> solution is impossible to remember</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Why's it hard to get right?</h2>
+						<p class="fragment">Drupal is super flexible. . .</p>
+						<p class="fragment">Therefore it can't come with sane defaults.</p>
+						<img class="fragment" src="/img/sane-defaults.png">
+					</section>									
+					<section>
+						<h2>Users need to understand too much.</h2>
+							<ul>
+								<li class="fragment">Menu system?</li>
+								<li class="fragment">Taxonomy?</li>
+								<li class="fragment">Taxonomy Menu?</li>
+							</ul>
+					</section>
+					<section>
+						<img src="/img/chimera.jpg">
+					</section>
+					<section>
+						<h2>Poor out of box reporting.</h2>
+					</section>
+					<section>
+						<h2>Bad stuff recap</h2>
+						<ul>
+							<li>Hard to do common tasks.</li>
+							<li>Hard to figure out uncommon/hacky things.</li>
+							<li>Lack of reporting stats.</li>
+						</ul>
+					</section>
+				</section>
 				<section>
 					<section>
-						<h2>Vertical Slides</h2>
-						<p>
-							Slides can be nested inside of other slides,
-							try pressing <a href="#/2/1">down</a>.
-						</p>
-						<a href="#/2/1" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+						<h2>What works?</h2>
+						<h3>Elements of a good admin experience.</h3>
+						<p class="fragment">We'll use wordpress as an example.</p>
 					</section>
 					<section>
-						<h2>Basement Level 1</h2>
-						<p>Press down or up to navigate.</p>
+						<h2>Designed for common tasks</h2>
+						<img src="/img/common-tasks.png">
 					</section>
 					<section>
-						<h2>Basement Level 2</h2>
-						<p>Cornify</p>
-						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-						</a>
+						<h2>Obvious easy to use help.</h2>
+					    <img src="/img/easy-help.png">
 					</section>
 					<section>
-						<h2>Basement Level 3</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
+						<h2>Statistics are front and center.</h2>
+						 <img src="/img/easy-stats.png">
 					</section>
-				</section>
-
-				<section>
-					<h2>Holistic Overview</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview!
-					</p>
-				</section>
-
-				<section>
-					<h2>rvl.io</h2>
-					<p>
-						If you don't like writing slides in HTML you can use the online editor <a href="http://www.rvl.io" target="_blank">rvl.io</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Works in Mobile Safari</h2>
-					<p>
-						Try it out! You can swipe through the slides pinch your way to the overview.
-					</p>
-				</section>
-
-				<section>
-					<h2>Marvelous Unordered List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
-				
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section data-markdown>
-					## Markdown support
-					
-					For those of you who like that sort of thing. Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-
-					<pre><code contenteditable style="margin-top: 20px;">&lt;section data-markdown&gt;
-  ## Markdown support
-
-  For those of you who like that sort of thing. 
-  Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-&lt;/section&gt;
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="http://lab.hakim.se/reveal-js/?transition=cube">Cube</a> -
-						<a href="http://lab.hakim.se/reveal-js/?transition=page">Page</a> -
-						<a href="http://lab.hakim.se/reveal-js/?transition=concave">Concave</a> -
-						<a href="http://lab.hakim.se/reveal-js/?transition=linear">Linear</a>
-					</p>
-				</section>
-
-				<section>
-					<h2>Themes</h2>
-					<p>
-						Reveal.js comes with a few themes built in: <br>
-						<a href="http://lab.hakim.se/reveal-js/?theme=sky">Sky</a> -
-						<a href="http://lab.hakim.se/reveal-js/?theme=beige">Beige</a> -
-						<a href="http://lab.hakim.se/reveal-js/?theme=simple">Simple</a> -
-						<a href="http://lab.hakim.se/reveal-js/">Default</a>
-					</p>
-					<p>
-						<small>
-							* Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the <code>&lt;head&gt;</code> using a <code>&lt;link&gt;</code>.
-						</small>
-					</p>
-				</section>
-
-				<section>
-					<section data-state="alert">
-						<h2>Global State</h2>
-						<p>
-							Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-							will be added as a class to the document element when the slide is open. This lets you
-							apply broader style changes, like switching the background.
-						</p>
-						<a href="#/7/1" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+					<section>
+						<h2>Consistency is key.</h2>
 					</section>
-					<section data-state="blackout">
-						<h2>"blackout"</h2>
-						<a href="#/7/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+				</section>				
+				<section>
+					<section>
+						<h2>Whats the easiest way to get it right?</h2>
 					</section>
 					<section data-state="soothe">
-						<h2>"soothe"</h2>
-						<a href="#/7/0" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
+						<h2>Build the admin as you go.</h2>
 					</section>
 				</section>
+				<section>
+					<section>
+						<h2>What to check for.</h2>
+						<h3>Auditing the backened.</h3>
+					</section>
+					<section>
+						<h2>Did you enable the built in modules?</h2>
+						<ul>
+							<li class="fragment">Dashboard</li>
+							<li class="fragment">Contextual admin</li>
+							<li class="fragment">Shortcut</li>
+							<li class="fragment">Overlay?</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Where do they start?</h2>
+						<ul>
+							<li>Did you setup the dashboard?</li>
+						</ul>
+					</section>
+					<section>
+						<h2>If it's hard for you it's impossible for them.</h2>
+					</section>
+					<section>
+						<h2>Are permissions apropriate?</h2>
+					</section>
+					<section>
+						<h2>Did you fill out field help text.</h2>
+					</section>
+					<section>
+						<h2>Are default input filters right?</h2>
+					</section>
+					<section>
+						<h2>Are relationships transperant?</h2>
+						<ul>
+							<li>Taxonomy menu again.</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Are there Select lists of doom?</h2>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>modules that help.</h2>
+					</section>
+					<section>
+						<h2>total control</h2>
+						<img src="/img/total-control.png">
+					</section>
+					<section>
+						<h2>total control</h2>
+						<ul>
+							<li class="fragment">provides a sane default dashboard.</li>
+							<li class="fragment">provides a <em>bunch</em> of great default views.</li>
+							<li class="fragment">super easy to edit, and customize.</li>
+							<li class="fragment">turn on ipe.</li>
+							<li class="fragment"><a href="http://drupal.org/project/total_control">http://drupal.org/project/total_control</a></li>
+						</ul>
+					</section>
+					<section>
+						<h2>admin menu</h2>
+						<img src="/img/admin-menu.png">
+					</section>
+					<section>
+						<h2>admin menu</h2>
+						<ul>
+							<li class="fragment">Cuts down on Clicks.</li>
+							<li class="fragment">Makes things easier to find quickly.</li>
+							<li class="fragment">Customizable.</li>
+							<li class="fragment"><a href="hhttp://drupal.org/project/admin_menu">http://drupal.org/project/admin_menu</a></li>
+						</ul>
+					</section>
+					<section>
+						<h2>WorkBench</h2>
+						<img src="/img/workbench.png">
+					</section>
+					<section>
+						<h2>Workbench</h2>
+						<ul>
+							<li class="fragment">Makes Editorial Workflow sane.</li>
+							<li class="fragment">Makes unpublished Revisions easier to work with.</li>
+							<li class="fragment">Provides approval workflow.</li>
+							<li class="fragment">Customizable.</li>
+							<li class="fragment"><a href="hhttp://drupal.org/project/workbench">http://drupal.org/project/workbench</a></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Advanced Help</h2>
+						<img src="/img/advanced-help.png">
+					</section>
+					<section>
+						<h2>Advanced Help</h2>
+						<ul>
+							<li class="fragment">Framework for contextual help.</li>
+							<li class="fragment">Provides help pages for lots of popular modules.</li>
+							<li class="fragment">Provides contextual links, and a framework to add them.</li>
+							<li class="fragment">Can be weird to work with, and some of the help is written in neck beard.</li>
+							<li class="fragment"><a href="hhttp://drupal.org/project/advanced_help">http://drupal.org/project/advanced_help</a></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Simple Help</h2>
+						<ul>
+							<li class="fragment">Lower friction alternative.</li>
+							<li class="fragment">Works like Github, looks for markdown in module files, adds contents to help menu.</li>
+							<li class="fragment">Doesn't provide contextual options.</li>
+							<li class="fragment"><a href="hhttp://drupal.org/project/simple_help">http://drupal.org/project/simple_help</a></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Views Bulk Operations.</h2>
+						<ul>
+							<li class="fragment">Quickly add actions to views.</li>
+							<li class="fragment">Very flexible and easy to use tool.</li>
+							<li class="fragment"><a href="hhttp://drupal.org/project/views_bulk_operations">http://drupal.org/project/views_bulk_operations</a></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Views Bulk Operations.</h2>
+						<ul>
+							<li class="fragment">Quickly add actions to views.</li>
+							<li class="fragment">Very flexible and easy to use tool.</li>
+							<li class="fragment"><a href="hhttp://drupal.org/project/views_bulk_operations">http://drupal.org/project/views_bulk_operations</a></li>
+						</ul>
+					</section>
 
-				<section data-state="customevent">
-					<h2>Custom Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code contenteditable style="font-size: 18px; margin-top: 20px;">Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
 				</section>
-
 				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						The nice thing about standards is that there are so many to choose from</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						For years there has been a theory that millions of monkeys typing at random on millions of typewriters would 
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.
-					</blockquote>
+					<section>
+						<h2>Other helpful Modules</h2>
+					</section>
+					<section>
+						<h2>For Select Lists</h2>
+						<p class="fragment">Lots of options need to find one that works for you, here's 2.</p>
+						<p class="fragment"><a href="http://drupal.org/project/chosen">Chosen</a><br>
+							<img src="/img/chosen_0.png">
+						</p>
+						<p class="fragment">
+							<a href="http://drupal.org/project/hierarchical_select">Hierarchical Select</a>
+							<br>
+							<img src="/img/hs2.png">
+						</p>					
+					</section>
+					<section>
+						<h2>Selecting Content.</h2>
+						<p class="fragment">Slideshows, featured content, homepage, landing pages. . . all need a way to select content. </p>
+						<p class="fragment"><a href="http://drupal.org/project/draggableviews">Draggable Views</a><br>
+						</p>
+						<p class="fragment">
+							<a href="http://drupal.org/project/nodequeue">nodequeue</a>
+							<br>
+							<img src="/img/nodeque.jpg">
+						</p>					
+					</section>
 				</section>
-				
 				<section>
-					<h2>Pretty Code</h2>
-					<pre><code contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-    
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) ) {
-        node.className += ' roll';
-      }
-    };
-  }
-}
-					</code></pre>
-					<p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
+					<section>
+						<h2>Whats the easiest way to get it right?</h2>
+					</section>
+					<section data-state="soothe">
+						<h2>Build the admin as you go.</h2>
+						<ul>
+							<li class="fragment">Don't leave it to the end.</li>
+							<li class="fragment">Think about it for each feature.</li>
+						</ul>
+					</section>
 				</section>
-				
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
+					<section>
+						<h2>Whats coming next?</h2>
+					</section>
+					<section>
+						<h2>Panopoly</h2>
+						<p>Building our first site with it now. Looks really promising.</p>
+					</section>
+					<section>
+						<h2>Spark</h2>
+						<p>Spark is a Drupal distribution which aims to be "the Pressflow of Drupal authoring experience."</p>
+						<h3>Key features</h3>
+						<ul>
+							<li class="fragment">True WYSIWYG using <a href="http://aloha-editor.org/">Aloha Editor.</a></li>
+							<li class="fragment">Responsive grid Builder.</li>
+							<li class="fragment">Mobile Administration.</li>
+						</ul>
+					</section>
 				</section>
-
 				<section>
-					<h2>Fragmented Views</h2>
-					<p>Hit the next arrow...</p>
-					<p class="fragment">... to step through ...</p>
-					<ol>
-						<li class="fragment"><code>any type</code></li>
-						<li class="fragment"><em>of view</em></li>
-						<li class="fragment"><strong>fragments</strong></li>
-					</ol>
-				</section>
-				
-				<section>
-					<h2>Spectacular image!</h2>
-					<a class="image" href="http://hakim.se/experiments/html5/breakdom/" target="_blank">
-						<img width="320" height="412" src="https://s3.amazonaws.com/hakim-static/reveal-js/breakdom.png" alt="BreakDOM game screenshot">
-					</a>
-				</section>
-				
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>
-					<iframe id="slideshare" src="http://www.slideshare.net/slideshow/embed_code/13872948" width="455" height="356" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
-					<script>
-						document.getElementById('slideshare').attributeName = 'allowfullscreen';
-					</script>
-				</section>
-				
-				<section>
-					<h2>Stellar Links</h2>
-					<ul>
-						<li><a href="https://github.com/hakimel/reveal.js">Source code on github</a></li>
-						<li><a href="http://hakim.se/projects/reveal-js">Read more on my site</a></li>
-						<li><a href="http://twitter.com/hakimel">Follow me on Twitter</a></li>
-					</ul>
-				</section>
-				
-				<section>
-					<h1>THE END</h1>
-					<h3>BY Hakim El Hattab / hakim.se</h3>
+					<h2>Further Reading.</h2>
+					<p><a href="http://drupal.org/project/spark">Spark Project and initiative.</a></p>
+					<p><a href="http://www.slideshare.net/afoster0/simplifying-enduser-drupal-7-content-administration">Simplifying Drupal 7 content administration.</a></p>
+					<p><a href="http://labs.krimson.be/articles/seven-improvements-end-users-drupal-7">7 improvements for end users in Drupal.</a></p>
 				</section>
 			</div>
 
