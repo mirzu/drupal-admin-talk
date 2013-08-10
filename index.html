@@ -63,12 +63,12 @@
               				<li>I like happy clients.</li>
               				<li>I see clients that are frustrated by Drupal.</li>
               				<li>I see some quick wins.</li>
+              			  <li class="fragment">Developers turn off the Overlay.</li>
               			</ul>
               		</section>
 				    <section>
               			<h2>What We'll go over.</h2>
               			<ul>
-              				<li>What makes a good admin.</li>
               				<li>Why Drupal admin can be challenging.</li>
               				<li>Quick things to look for.</li>
               				<li>Modules that help.</li>
@@ -76,12 +76,17 @@
               			</ul>
               		</section>
 				</section>
+				<section>
+          <p>There is no perfect author experience that will work for every content model, every company’s workflow. And that means that the future of Drupal UX…</p>
+					<p class="fragment"><em>Is you.</em></p>
+					<p>-- Karen Magrane</p>
+				</section>
 				<section >
 					<section>
-						<h2>Why Drupal *can* be frustrating.</h2>
+						<h2>Why Drupal <em>can</em> be frustrating.</h2>
 					</section>	
 					<section>
-  						
+
 						<h2>Wordpress admin</h2>
 
   						<img src="img/wordpress-admin.png">
@@ -97,27 +102,12 @@
 						<h2>Usually goes downhill from there.</h2>
 					</section>
 					<section>
-						<h2>Users don't care. . . </h2>
-						<h3 class="fragment">. . . and the shouldn't.</h3>
-					    <h3 class="fragment">They have their own job.</h3>
-					    <h3 class="fragment">Our job is to get out of their way.</h3>
-					</section>
-					<section>
- 						<h2>What's in their way?</h2>
- 						<ul>
- 							<li class="fragment">Don't know whats going on.</li>
- 							<li class="fragment">Lots of clicks for common tasks</li>
- 							<li class="fragment">Can't figure out uncommon tasks</li>
- 							<li class="fragment">Your <strong>clever</strong> solution is impossible to remember</li>
-						</ul>
-					</section>
-					<section>
 						<h2>Why it's hard to get right.</h2>
 						<p class="fragment">Drupal is super flexible. . .</p>
 						<p class="fragment">So the default admin is hard to peg.</p>
 						<img class="fragment" src="img/sane-defaults.png">
 						<p class="fragment">Maybe. . .</p>
-					</section>									
+					</section>
 					<section>
 						<h2>Users need to understand too much.</h2>
 							<ul>
@@ -130,14 +120,15 @@
 						<img src="img/chimera.jpg">
 					</section>
 					<section>
-						<h2>Poor out of box reporting.</h2>
+					    <h2 class="fragment">Our job is to get out of their way.</h2>
 					</section>
 					<section>
-						<h2>Bad stuff recap</h2>
-						<ul>
-							<li>Hard to do common tasks.</li>
-							<li>Hard to figure out uncommon/hacky things.</li>
-							<li>Lack of reporting stats.</li>
+ 						<h2>What's in their way?</h2>
+ 						<ul>
+ 							<li class="fragment">Don't know whats going on.</li>
+ 							<li class="fragment">Lots of clicks for common tasks</li>
+ 							<li class="fragment">Can't figure out uncommon tasks</li>
+ 							<li class="fragment">Your <strong>clever</strong> solution is impossible to remember</li>
 						</ul>
 					</section>
 				</section>
@@ -145,7 +136,7 @@
 					<section>
 						<h2>What works?</h2>
 						<h3>Elements of a good admin experience.</h3>
-						<p class="fragment">Copy Wordpress.</p>
+						<p class="fragment">Lets take a look at WordPress.</p>
 					</section>
 					<section>
 						<h2>Designed for common tasks</h2>
@@ -162,7 +153,7 @@
 					<section>
 						<h2>Consistency is key.</h2>
 					</section>
-				</section>				
+				</section>
 				<section>
 					<section>
 						<h2>Whats the easiest way to get it right?</h2>
@@ -176,7 +167,6 @@
 				<section>
 					<section>
 						<h2>What to check for.</h2>
-						<h3>Auditing the backened.</h3>
 					</section>
 					<section>
 						<h2>Did you enable the built in modules?</h2>
@@ -188,21 +178,19 @@
 						</ul>
 					</section>
 					<section>
-						<h2>Questions to ask.</h2>
-						<ul>
-							<li class="fragment">Where do they start?</li>
-							<li class="fragment">Is it hard for you?</li>
-							<li class="fragment">Are permissions right?</li>
-							<li class="fragment">Did you fill out field help text?</li>
-							<li class="fragment">Are default input filters right?</li>
-							<li class="fragment">Are relationships transperant?</li>
-							<li class="fragment">Are there Select lists of doom?</li>
+            <h2>Easy Wins</h2>
+            <ul>
+							<li class="fragment">Reduce Permissions.</li>
+							<li class="fragment">Remove WYSIWYG Buttons.</li>
+							<li class="fragment">Fill out the Field Help text.</li>
+							<li class="fragment">Setup some Shortcuts for your users</li>
+							<li class="fragment">Reduce Input formats (Better Formats Module)</li>
 						</ul>
 					</section>
 				</section>
 				<section>
 					<section>
-						<h2>modules that help.</h2>
+						<h2>Modules that help.</h2>
 					</section>
 					<section>
 						<h2>total control</h2>
@@ -232,16 +220,20 @@
 						</ul>
 					</section>
 					<section>
+						<h2>Mobile Friendly Admin</h2>
+						<p><a href="https://drupal.org/node/1993254">https://drupal.org/node/1993254</a></p>
+					</section>
+					<section>
 						<h2>WorkBench</h2>
 						<img src="img/workbench.png">
 					</section>
 					<section>
 						<h2>Workbench</h2>
 						<ul>
-							<li class="fragment">Makes Editorial Workflow sane.</li>
+							<li class="fragment">Framework for Complex Editorial Workflows.</li>
 							<li class="fragment">Makes unpublished Revisions easier to work with.</li>
 							<li class="fragment">Provides approval workflow.</li>
-							<li class="fragment">Customizable.</li>
+							<li class="fragment">Only use it if there is a <strong>strong</strong> business case.</li>
 							<li class="fragment"><a href="hhttp://drupal.org/project/workbench">http://drupal.org/project/workbench</a></li>
 						</ul>
 					</section>
@@ -276,15 +268,34 @@
 							<li class="fragment"><a href="hhttp://drupal.org/project/views_bulk_operations">http://drupal.org/project/views_bulk_operations</a></li>
 						</ul>
 					</section>
-					<section>
-						<h2>Views Bulk Operations.</h2>
+          <section>
+						<h2>FieldGroup</h2>
 						<ul>
-							<li class="fragment">Quickly add actions to views.</li>
-							<li class="fragment">Very flexible and easy to use tool.</li>
-							<li class="fragment"><a href="hhttp://drupal.org/project/views_bulk_operations">http://drupal.org/project/views_bulk_operations</a></li>
+              <li class="fragment">Group Fields to help organize content creation.</li>
+							<li class="fragment"><a href="https://drupal.org/project/field_group">https://drupal.org/project/field_group</a></li>
 						</ul>
 					</section>
-
+					<section>
+						<h2>Publish Button</h2>
+						<ul>
+              <li class="fragment">Splits the Save button into Publish and Save.</li>
+							<li class="fragment"><a href="https://drupal.org/project/publish_button">https://drupal.org/project/publish_button</a></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Linkit</h2>
+						<ul>
+              <li class="fragment">Easily Link to other parts of your site.</li>
+							<li class="fragment"><a href="https://drupal.org/project/LINKIT">https://drupal.org/project/LINKIT</a></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Field Validation</h2>
+						<ul>
+              <li class="fragment">Validate Fields</li>
+							<li class="fragment"><a href="https://drupal.org/project/field_validation">https://drupal.org/project/field_validation</a></li>
+						</ul>
+					</section>
 				</section>
 				<section>
 					<section>
@@ -329,7 +340,7 @@
 					<p>Spark is a Drupal distribution which aims to be "the Pressflow of Drupal authoring experience."</p>
 					<h3>Key features</h3>
 					<ul>
-						<li class="fragment">True WYSIWYG using <a href="http://aloha-editor.org/">Aloha Editor.</a></li>
+						<li class="fragment">In Place Editing.</li>
 						<li class="fragment">Responsive grid Builder.</li>
 						<li class="fragment">Mobile Administration.</li>
 					</ul>
@@ -337,6 +348,8 @@
 				</section>
 				<section>
 					<h2>Further Reading.</h2>
+					<p><a href="https://portland2013.drupal.org/content/secrets-awesomizing%C2%AE-your-editor%E2%80%99s-back-end-drupal-experience">Great presentation from Portland on the same topic</a></p>
+					<p><a href="http://www.chapterthree.com/blog/susan-mccormick/leveling-learning-curve-content-admins">Great blog Article from Chapter 3</a></p>
 					<p><a href="http://drupal.org/project/spark">Spark Project and initiative.</a></p>
 					<p><a href="http://www.slideshare.net/afoster0/simplifying-enduser-drupal-7-content-administration">Simplifying Drupal 7 content administration.</a></p>
 					<p><a href="http://labs.krimson.be/articles/seven-improvements-end-users-drupal-7">7 improvements for end users in Drupal.</a></p>
